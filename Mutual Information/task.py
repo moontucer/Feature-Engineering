@@ -35,3 +35,13 @@ def plot_mi_scores(scores):
 plt.figure(dpi=100, figsize=(8, 5))
 plot_mi_scores(mi_scores)
 
+
+
+sns.relplot(x="curb_weight", y="price", data=df)
+
+
+
+sns.lmplot(x="horsepower", y="price", hue="fuel_type", data=df)
+
+
+
